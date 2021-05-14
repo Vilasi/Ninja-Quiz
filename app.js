@@ -29,10 +29,10 @@ form.addEventListener('submit', (event) => {
 
   // window.scrollTo(x, y) takes two arguments, an x and a y coordinate.
   scrollTo(0, 0);
+
+  //This will increment the output percentage.
   let output = 0;
   const timer = setInterval(() => {
-    console.log('PEANUTS');
-
     // console.log(i);
     if (output === score) {
       clearInterval(timer);
